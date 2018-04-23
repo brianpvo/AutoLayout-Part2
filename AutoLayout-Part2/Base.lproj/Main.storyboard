@@ -26,8 +26,8 @@
                                     <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Itd-bp-3WX"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gPW-qD-iPT">
-                                <rect key="frame" x="149" y="547" width="38" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gPW-qD-iPT">
+                                <rect key="frame" x="168" y="547" width="38" height="30"/>
                                 <color key="backgroundColor" red="0.52328635045493943" green="1" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal" title="Short"/>
@@ -40,6 +40,7 @@
                         <constraints>
                             <constraint firstItem="EFv-qN-uyF" firstAttribute="leading" secondItem="gPW-qD-iPT" secondAttribute="leading" id="eFi-rP-NzY"/>
                             <constraint firstItem="EFv-qN-uyF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jE0-XQ-8Xc"/>
+                            <constraint firstItem="EFv-qN-uyF" firstAttribute="width" secondItem="gPW-qD-iPT" secondAttribute="width" id="jLz-1F-vpo"/>
                             <constraint firstItem="EFv-qN-uyF" firstAttribute="top" secondItem="gPW-qD-iPT" secondAttribute="bottom" constant="40" id="nwd-8z-9sI"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="EFv-qN-uyF" secondAttribute="bottom" constant="20" id="xKG-dc-EM4"/>
                         </constraints>
